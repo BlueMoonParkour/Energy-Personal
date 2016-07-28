@@ -1,0 +1,16 @@
+[
+{
+    "modid": "personalEnergy",
+    "name": "Personal Energy",
+    "description": "A mod where you are the power.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["BlueMoonParkour"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+}
+]

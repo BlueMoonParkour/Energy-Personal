@@ -1,6 +1,5 @@
 package main.java.bluemoonparkour.personalenergy.proxy;
 
-public class ClientProxy implements CommonProxy
-{
+public class ClientProxy extends CommonProxy {
 
 }

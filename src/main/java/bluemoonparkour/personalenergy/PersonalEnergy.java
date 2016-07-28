@@ -15,24 +15,24 @@ public class PersonalEnergy
     @Instance
     public static PersonalEnergy instance;
 
-    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static CommonProxy proxy;
+   // @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+   // public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        System.out.println("PRE INIT");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        System.out.println("INIT");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        System.out.println("POST INIT");
     }
 }
