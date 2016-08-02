@@ -1,7 +1,10 @@
-package main.java.bluemoonparkour.personalenergy;
+package bluemoonparkour.personalenergy;
 
-import main.java.bluemoonparkour.personalenergy.proxy.CommonProxy;
-import main.java.bluemoonparkour.personalenergy.reference.Reference;
+import bluemoonparkour.personalenergy.init.ModBlocks;
+import bluemoonparkour.personalenergy.proxy.CommonProxy;
+import bluemoonparkour.personalenergy.reference.Reference;
+import bluemoonparkour.personalenergy.tabs.PETab;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -15,13 +18,18 @@ public class PersonalEnergy
     @Instance
     public static PersonalEnergy instance;
 
-   // @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-   // public static CommonProxy proxy;
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static CommonProxy proxy;
+
+    public static final CreativeTabs CREATIVE_TABS = new PETab();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         System.out.println("PRE INIT");
+
+        ModBlocks.init();
+        ModBlocks.register();
     }
 
     @Mod.EventHandler

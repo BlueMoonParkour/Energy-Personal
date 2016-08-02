@@ -1,6 +1,6 @@
-package main.java.bluemoonparkour.personalenergy.proxy;
+package bluemoonparkour.personalenergy.proxy;
 
-public class CommonProxy
+public interface CommonProxy
 {
-
+    public void init();
 }

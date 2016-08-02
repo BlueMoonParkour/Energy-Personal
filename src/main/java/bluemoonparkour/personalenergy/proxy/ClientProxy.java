@@ -1,5 +1,14 @@
-package main.java.bluemoonparkour.personalenergy.proxy;
+package bluemoonparkour.personalenergy.proxy;
 
-public class ClientProxy extends CommonProxy {
+import bluemoonparkour.personalenergy.init.ModBlocks;
+
+public class ClientProxy implements CommonProxy {
+
+    @Override
+    public void init()
+    {
+       // ModItems.registerRenders();
+        ModBlocks.registerRenders();
+    }
 
 }

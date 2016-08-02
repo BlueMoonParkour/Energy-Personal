@@ -1,16 +1,15 @@
 [
 {
-    "modid": "personalEnergy",
-    "name": "Personal Energy",
-    "description": "A mod where you are the power.",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "url": "",
-    "updateUrl": "",
-    "authorList": ["BlueMoonParkour"],
-    "credits": "",
-    "logoFile": "",
-    "screenshots": [],
-    "dependencies": []
+  "modid": "personalEnergy",
+  "name": "Personal Energy",
+  "description": "A useless description",
+  "version": "1.0.0.2",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BlueMoonParkour"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
 }
 ]

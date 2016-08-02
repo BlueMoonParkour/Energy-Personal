@@ -1,0 +1,48 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "textures": {
+    "0": "blocks/glass_white",
+    "1": "blocks/coal_block"
+  },
+  "elements": [
+    {
+      "name": "glass",
+      "from": [ 4.00, 1.00, 4.00 ],
+      "to": [ 12.00, 10.00, 12.00 ],
+      "faces": {
+        "north": { "texture": "#0", "uv": [ 1.00, 1.00, 9.00, 10.00 ] },
+        "east": { "texture": "#0", "uv": [ 1.00, 1.00, 9.00, 10.00 ] },
+        "south": { "texture": "#0", "uv": [ 1.00, 1.00, 9.00, 10.00 ] },
+        "west": { "texture": "#0", "uv": [ 1.00, 1.00, 9.00, 10.00 ] },
+        "up": { "texture": "#0", "uv": [ 1.00, 1.00, 9.00, 9.00 ] },
+        "down": { "texture": "#0", "uv": [ 1.00, 1.00, 9.00, 9.00 ] }
+      }
+    },
+    {
+      "name": "lid",
+      "from": [ 5.00, 10.00, 5.00 ],
+      "to": [ 11.00, 11.00, 11.00 ],
+      "faces": {
+        "north": { "texture": "#1", "uv": [ 0.00, 0.00, 6.00, 1.00 ] },
+        "east": { "texture": "#1", "uv": [ 0.00, 0.00, 6.00, 1.00 ] },
+        "south": { "texture": "#1", "uv": [ 0.00, 0.00, 6.00, 1.00 ] },
+        "west": { "texture": "#1", "uv": [ 0.00, 0.00, 2.00, 1.00 ] },
+        "up": { "texture": "#1", "uv": [ 0.00, 0.00, 6.00, 6.00 ] },
+        "down": { "texture": "#1", "uv": [ 0.00, 0.00, 6.00, 6.00 ] }
+      }
+    },
+    {
+      "name": "base",
+      "from": [ 4.00, 0.00, 4.00 ],
+      "to": [ 12.00, 1.00, 12.00 ],
+      "faces": {
+        "north": { "texture": "#1", "uv": [ 0.00, 0.00, 8.00, 1.00 ] },
+        "east": { "texture": "#1", "uv": [ 0.00, 0.00, 8.00, 1.00 ] },
+        "south": { "texture": "#1", "uv": [ 0.00, 0.00, 8.00, 1.00 ] },
+        "west": { "texture": "#1", "uv": [ 0.00, 0.00, 8.00, 1.00 ] },
+        "up": { "texture": "#1", "uv": [ 0.00, 0.00, 8.00, 8.00 ] },
+        "down": { "texture": "#1", "uv": [ 0.00, 0.00, 8.00, 8.00 ] }
+      }
+    }
+  ]
+}

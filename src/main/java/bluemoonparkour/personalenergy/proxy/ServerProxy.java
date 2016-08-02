@@ -1,5 +1,7 @@
-package main.java.bluemoonparkour.personalenergy.proxy;
+package bluemoonparkour.personalenergy.proxy;
 
-public class ServerProxy extends CommonProxy {
-
+public class ServerProxy implements CommonProxy
+{
+    @Override
+    public void init() {}
 }

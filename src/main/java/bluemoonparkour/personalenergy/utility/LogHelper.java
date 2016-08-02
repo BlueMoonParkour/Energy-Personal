@@ -1,6 +1,6 @@
-package main.java.bluemoonparkour.personalenergy.utility;
+package bluemoonparkour.personalenergy.utility;
 
-import main.java.bluemoonparkour.personalenergy.reference.Reference;
+import bluemoonparkour.personalenergy.reference.Reference;
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
